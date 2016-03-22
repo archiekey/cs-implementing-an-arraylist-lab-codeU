@@ -235,6 +235,7 @@ public class MyArrayListTest {
 	@Test
 	public void testSet() {
 		Integer val = mal.set(1, 5);
+        //System.out.println("setval: ", val);
 		assertThat(val, is(new Integer(2)));
 
 		val = mal.set(0, 6);
